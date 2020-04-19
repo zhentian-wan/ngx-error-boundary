@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-error-boundary": [
+        "dist/ngx-error-boundary/ngx-error-boundary",
+        "dist/ngx-error-boundary"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
