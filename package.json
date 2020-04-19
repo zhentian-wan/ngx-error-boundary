@@ -4,8 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
+    "build": "ng build --project ngx-error-boundary --prod",
+    "dev": "ng build --project ngx-error-boundary --watch",
+    "test": "ng test --project ngx-error-boundary --watch",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
